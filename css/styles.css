@@ -1,4 +1,55 @@
-body {
-  background-color: #fff;
-  color: #2a2a2a;
+/* основний колір тексту color: #212121 */
+/* вторинний колір тексту color: #757575; */
+/* акцент при ховері color: #2196F3 */
+/* вторинний колір фону #F5F4FA */
+:root {
+  --pmimary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent: #2196f3;
+}
+
+.page {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+/* шапка */
+.logo {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav .contact:hover,
+.auth-nav .contact:focus {
+  color: #2196f3;
+}
+
+/* герой */
+.hero-title {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+/* секції*/
+.section-title {
+  color: #212121;
+}
+
+/* пропозиції */
+.offer .title {
+  color: #212121;
+}
+.offer .text {
+  color: #757575;
+}
+.team .title {
+  color: #212121;
+}
+.team .text {
+  color: #757575;
 }
