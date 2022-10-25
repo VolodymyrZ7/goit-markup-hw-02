@@ -3,14 +3,14 @@
 /* акцент при ховері color: #2196F3 */
 /* вторинний колір фону #F5F4FA */
 :root {
-  --pmimary-text-color: #212121;
-  --secondary-text-color: #757575;
+  --title-text-color: #212121;
+  --brand-text-color: #757575;
   --accent: #2196f3;
 }
 
 .page {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* шапка */
@@ -22,11 +22,15 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent);
 }
 .auth-nav .contact:hover,
 .auth-nav .contact:focus {
-  color: #2196f3;
+  color: var(--accent);
+}
+
+.auth-nav .contact {
+  color: var(--brand-text-color);
 }
 
 /* герой */
@@ -37,19 +41,24 @@ ul {
 
 /* секції*/
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* пропозиції */
 .offer .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .offer .text {
-  color: #757575;
+  color: var(--brand-text-color);
 }
 .team .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .team .text {
-  color: #757575;
+  color: var(--brand-text-color);
+}
+/* підвал */
+.address-link .link:hover,
+.address-link .link:focus {
+  color: var(--accent);
 }
