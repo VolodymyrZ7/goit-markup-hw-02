@@ -57,6 +57,9 @@ ul {
 .team .text {
   color: var(--brand-text-color);
 }
+
+/* портфоліо */
+
 /* підвал */
 .address-link .link:hover,
 .address-link .link:focus {
