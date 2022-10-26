@@ -11,6 +11,7 @@
 .page {
   background-color: #ffffff;
   color: var(--title-text-color);
+  font-family: "Roboto";
 }
 
 /* шапка */
