@@ -6,12 +6,13 @@
   --title-text-color: #212121;
   --brand-text-color: #757575;
   --accent: #2196f3;
+  --backgroudn-color: #ffffff;
 }
 
-.page {
-  background-color: #ffffff;
+.body {
+  background-color: var(--backgroudn-color);
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 /* шапка */
@@ -21,10 +22,16 @@
 ul {
   list-style: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent);
 }
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
 .auth-nav .contact:hover,
 .auth-nav .contact:focus {
   color: var(--accent);
@@ -38,6 +45,12 @@ ul {
 .hero-title {
   color: #ffffff;
   background-color: #2f303a;
+}
+
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 /* секції*/
@@ -60,6 +73,9 @@ ul {
 }
 
 /* портфоліо */
+.item .text {
+  color: var(--brand-text-color);
+}
 
 /* підвал */
 .address-link .link:hover,
