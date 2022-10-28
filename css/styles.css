@@ -15,16 +15,22 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* шапка */
-.logo {
+/* ----------------шапка---------------- */
+.body .logo {
   color: #2196f3;
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
 }
 
-a {
+.link {
   text-decoration: none;
 }
-ul {
+
+.style {
   list-style: none;
 }
 
@@ -46,7 +52,7 @@ ul {
   color: var(--brand-text-color);
 }
 
-/* герой */
+/* ---------------герой---------------- */
 .hero-title {
   color: #ffffff;
   background-color: #2f303a;
@@ -58,12 +64,12 @@ ul {
   cursor: pointer;
 }
 
-/* секції*/
+/* ------------------секції--------------*/
 .section-title {
   color: var(--title-text-color);
 }
 
-/* пропозиції */
+/* ---------------пропозиції------------ */
 .offer .title {
   color: var(--title-text-color);
 }
@@ -77,7 +83,7 @@ ul {
   color: var(--brand-text-color);
 }
 
-/* портфоліо */
+/* --------------портфоліо------------- */
 .item .text {
   color: var(--brand-text-color);
 }
