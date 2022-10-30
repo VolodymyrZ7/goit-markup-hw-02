@@ -153,6 +153,8 @@
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .nav .button-filtr:hover,
