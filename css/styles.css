@@ -16,13 +16,14 @@
 }
 
 /* ----------------шапка---------------- */
-.link {
-  text-decoration: none;
-  font-style: normal;
-}
 
 .style {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
 
 .body .logo {
@@ -41,7 +42,6 @@
 }
 
 .site-nav .link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -59,7 +59,6 @@
 }
 
 .auth-nav .contact {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -78,7 +77,6 @@
 }
 
 .hero-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -109,7 +107,6 @@
 }
 
 .section .section-title {
-  font-family: "Roboto";
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -118,7 +115,6 @@
 }
 
 .section .title {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -127,7 +123,6 @@
 }
 
 .section .text {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -146,7 +141,6 @@
 }
 
 .nav .button-filtr {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -161,7 +155,6 @@
 }
 
 .portfolio .portfoloi-title {
-  font-family: "Roboto";
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -169,7 +162,6 @@
 }
 
 .portfolio .text {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -194,8 +186,6 @@
 }
 
 .background .link-address {
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,8 +193,6 @@
 }
 
 .background .link-contact {
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
