@@ -135,12 +135,18 @@
 
 /* ---------------команда------------  */
 
+/* ---------------фільрт кнопок------------  */
+
+.nav .button-filtr {
+}
+
 /* --------------портфоліо------------- */
 .item .text {
   color: var(--brand-text-color);
 }
 
 .nav .button-filtr {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
