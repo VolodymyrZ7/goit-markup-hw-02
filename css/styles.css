@@ -26,19 +26,15 @@
   font-style: normal;
 }
 
-.body .logo {
+.link-logo {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.body .logo-two {
+.link-logo .logo-studio {
   color: #212121;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .site-nav .link {
@@ -153,13 +149,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: #f5f4fa;
+  color: #212121;
 }
 
 .nav .button-filtr:hover,
 .nav .button-filtr:focus {
-  color: var(--accent);
+  background-color: var(--accent);
+  color: #ffffff;
 }
 
 .portfolio .portfoloi-title {
@@ -185,12 +182,8 @@
 .background {
   background-color: #2f303a;
 }
-.background .logo-three {
+.background .logo-studio-two {
   color: #ffffff;
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .background .link-address {
